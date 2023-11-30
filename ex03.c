@@ -24,12 +24,12 @@ do
 
     i++;
 
-    printf ("DESEJA DIGITAR OUTRO NUMERO?\n1-sim\n2-n„o\n");
+    printf ("DESEJA DIGITAR OUTRO NUMERO?\n1-sim\n2-n√£o\n");
     scanf("%d",&warzone);
     
     while (warzone!=1&&warzone!=2)
     {
-        printf ("\nNumero n„o identificado, digite novamente.\n");
+        printf ("\nNumero n√£o identificado, digite novamente.\n");
         scanf("%d",&warzone);
     
     }
@@ -44,7 +44,7 @@ printf("\nEXIBINDO CONTATOS...\n");
 for ( j = 0; j < i; j++)
 {
     printf ("Nome do seu contato:%s\n", nome[j]);
-    printf ("N˙mero do seu contato:%s\n", num[j]);
+    printf ("N√∫mero do seu contato:%d\n", num[j]);
 }
 
     return 0;
